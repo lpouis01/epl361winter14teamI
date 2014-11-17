@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Welcome to SCAJA</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="SCAJA Search Page.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="logo">
+  <h1 style="color:goldenrod">SCAJA</a></h1>
+  <h2 style="color:goldenrod">SOCIAL CONTEXT-AWARE JOB FINDER APPLICATION</a></h2>
+</div>
+<div id="content">
+  <div id="sidebar">
+    <div id="search" class="boxed">
+      <h2 class="title">Do you want to find your <b style="color:orangered">ideal</b> job?</h2>
+      <div class="content">
+        <form id="form1" method="post">
+          <fieldset>
+          <legend>Search</legend>
+          <input id="inputsubmit1" type="submit" name="inputsubmit1" value="Search Job" />
+          </fieldset>
+        </form>
+		<label> <br>
+				<input id="location" name="loc" type="checkbox" value="1" />
+				&nbsp;
+				Near by your location
+				<input type="text"> 
+			</label>
+		<ul class="list"> <b style="color:sienna">Career Category</b>
+			<li>
+			<label>
+				<input id="arts-and-entertainment" name="arts-and-entertainment" type="checkbox" value="1" />
+				&nbsp;
+				Arts and Entertainment
+			</label>
+			</li>
+			</li>
+<li>
+<label>
+<input id="business" name="business" type="checkbox" value="1" />
+&nbsp;
+Business
+</label>
+</li>
+<li>
+<label>
+<input id="construction-and-repair" name="construction-and-repair" type="checkbox" value="1" />
+&nbsp;
+Construction and Repair
+</label>
+</li>
+<li>
+<label>
+<input id="education-and-community" name="education-and-community" type="checkbox" value="1" />
+&nbsp;
+Education and Community
+</label>
+</li>
+<li>
+<label>
+<input id="healthcare" name="healthcare" type="checkbox" value="1" />
+&nbsp;
+Healthcare
+</label>
+</li>
+<li>
+<label>
+<input id="hotel-food-and-service" name="hotel-food-and-service" type="checkbox" value="1" />
+&nbsp;
+Hotel, Food, and Service
+</label>
+</li>
+<li>
+<label>
+<input id="law-and-order" name="law-and-order" type="checkbox" value="1" />
+&nbsp;
+Law and Order
+</label>
+</li>
+<li>
+<label>
+<input id="production-and-distribution" name="production-and-distribution" type="checkbox" value="1" />
+&nbsp;
+Production and Distribution
+</label>
+</li>
+<li>
+<label>
+<input id="science-and-computers" name="science-and-computers" type="checkbox" value="1" />
+&nbsp;
+Science and Computers
+</label>
+</li>
+			</ul> 
+			<ul class="list"><b style="color:sienna">Career Skills </b>
+<li>
+<label>
+<input id="problem_solving" name="problem_solving" type="checkbox" value="1" />
+&nbsp;
+Figuring Things Out
+</label>
+</li>
+<li>
+<label>
+<input id="reading_and_writing" name="reading_and_writing" type="checkbox" value="1" />
+&nbsp;
+Reading and Writing
+</label>
+</li>
+<li>
+<label>
+<input id="quantitative" name="quantitative" type="checkbox" value="1" />
+&nbsp;
+Math
+</label>
+</li>
+<li>
+<label>
+<input id="creativity" name="creativity" type="checkbox" value="1" />
+&nbsp;
+Creativity
+</label>
+</li>
+<li>
+<label>
+<input id="helping" name="helping" type="checkbox" value="1" />
+&nbsp;
+Helping People
+</label>
+</li>
+<li>
+<label>
+<input id="leadership" name="leadership" type="checkbox" value="1" />
+&nbsp;
+Leadership
+</label>
+</li>
+<li>
+<label>
+<input id="organization" name="organization" type="checkbox" value="1" />
+&nbsp;
+Organization
+</label>
+</li>
+<li>
+<label>
+<input id="coordination" name="coordination" type="checkbox" value="1" />
+&nbsp;
+Coordination
+</label>
+</li>
+<li>
+<label>
+<input id="strength" name="strength" type="checkbox" value="1" />
+&nbsp;
+Physical Strength
+</label>
+</li>
+</ul>
+<ul class="list"> <b style="color:sienna">Education </b>
+<li>
+<label>
+<input id="certificate" name="certificate" type="checkbox" value="1" />
+&nbsp;
+Certificate
+</label>
+</li>
+<li>
+<label>
+<input id="associates" name="associates" type="checkbox" value="1" />
+&nbsp;
+Associate's
+</label>
+</li>
+<li>
+<label>
+<input id="bachelors" name="bachelors" type="checkbox" value="1" />
+&nbsp;
+Bachelor's
+</label>
+</li>
+<li>
+<label>
+<input id="masters" name="masters" type="checkbox" value="1" />
+&nbsp;
+Master's
+</label>
+</li>
+<li>
+<label>
+<input id="doctorate" name="doctorate" type="checkbox" value="1" />
+&nbsp;
+Doctorate
+</label>
+</li>
+</ul>
+      </div>
+    </div> 
+  </div>
+  
+  
+  <div id="main">
+    <div id="welcome">
+      <h2 style="color:saddlebrown">Welcome to the best <em style="color:orangered">career-saving</em> application!</h2>
+      <img src="images/career_search.jpg" alt="" width="800" height="220" style="position: relative; float: left; margin-right: 1em;" />
+    </div>
+    <div class="hr">
+      <hr />
+    </div>
+    <div id="example">
+      <blockquote>
+	  <ul>
+	  	<li>
+        	<label> Recommended jobs for you <br> <textarea id="jobresults"> </textarea> <br> &nbsp </label> 
+		</li>
+	  	<li>
+        	<label> Search Results <br> <textarea id="jobresults"> </textarea> <br> &nbsp </label> 
+		</li>
+		<li>
+        	<label> Applies made for your job <input type="submit" value=" View Results "> <br> <textarea id="jobresults"> </textarea>
+			</label>
+		</li>
+	  </ul>
+      </blockquote> 
+    </div>
+  </div>
+  <div id="extra"></div>
+</div>
+<div id="footer">
+</div>
+</body>
+</html>
